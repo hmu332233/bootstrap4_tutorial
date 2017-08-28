@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>차근차근 부트스트랩 | Bootstrap Grid System</title>
+  <!-- Lato Font CDN -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+	<!-- Bootstrap CSS CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<!-- Your Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="overlay-grid">
+  <header>
+    <h1 class="title">Bootstrap Grid System</h1>
+  </header>
+
+	<!--
+	bootstrap4의 row는 flex 로 변경되었다
+	따라서 다음 괕이
+	.row.justify-content-center
+	.row.justify-content-end
+	등으로  정렬이 가능하다
+
+
+	.push-*-n 왼쪽으로 n개 column만큼 혼자 이동 [position: relative]
+	.pull-*-n 오른쪽으로 n개 column만큼 혼자 이동 [position: relative]
+	.offset-*-n 왼쪽으로 n개 column만큼 다함께 이동 [margin-left]
+
+	-->
+
+  <!-- 강의 실습 -->
+  <div class="container">
+		<div class="row justify-content-center">
+			<div class="col-sm-3">
+				<p>asdf</p>
+			</div>
+			<div class="col-sm-3">
+				<p>asdf</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-4 push-sm-2">
+				<p>asdf</p>
+			</div>
+			<div class="col-sm-4">
+				<p>1234</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-4 offset-sm-2">
+				<p>asdf</p>
+			</div>
+			<div class="col-sm-4">
+				<p>1234</p>
+			</div>
+		</div>
+  </div>
+
+
+  <!-- // 강의 실습 -->
+
+  <!-- jQuery CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript CDN -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
