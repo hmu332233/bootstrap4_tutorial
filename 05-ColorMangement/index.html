@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>차근차근 부트스트랩 | Bootstrap Grid System</title>
+  <!-- Lato Font CDN -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+	<!-- Bootstrap CSS CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<!-- Your Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="overlay-grid">
+  <header>
+    <h1 class="title">Bootstrap Grid System</h1>
+  </header>
+
+	<!--
+
+	muted, primary, success, info, warning, danger, white
+
+	글자색
+	text-*
+	배경색
+	bg-*
+
+	부트스트랩에서는 색상 코드는 !important로 되어있다
+	그래서 custom하려면 우리도 !important를 붙여준다
+	-->
+
+  <!-- 강의 실습 -->
+  <div class="container">
+		<div class="row justify-content-center bg-success">
+			<div class="col-sm-3">
+				<p class="text-info">asdf</p>
+			</div>
+			<div class="col-sm-3">
+				<p>asdf</p>
+			</div>
+		</div>
+  </div>
+
+
+  <!-- // 강의 실습 -->
+
+  <!-- jQuery CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript CDN -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
