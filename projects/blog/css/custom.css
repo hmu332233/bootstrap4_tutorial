@@ -38,3 +38,20 @@ html {
 .navbar-light .nav-item.active .nav-link {
   color: #ff5216;
 }
+
+.header {
+  height: 500px;
+  /* linear-gradient(방향,시작점,끝점); */
+  background-image: linear-gradient(to bottom, transparent 0%, #fff 100%), url(/img/bg-header.jpg);
+  background-size: cover; /* 백그라운드 사이즈 조절 */
+  backgournd-repeat: no-repeat; /* 사진 반복 */
+  /* background-position: center center; */
+}
+
+button:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
