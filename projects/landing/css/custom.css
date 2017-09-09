@@ -1,0 +1,61 @@
+/* Comman Settings */
+html {
+  /* 1rem == 15px */
+  font-size: 15px;
+  line-height: 1.6; /* 25/15 */
+}
+
+* {
+  font-family: 'Spoqn Han Sans', sans-serif;
+  letter-spacing: -0.02rem; /* -0.32/15 */
+  color: #333;
+}
+
+/* 속성 선택자. lang 속성이 en인 아이들만 적용 */
+[lang="en"] {
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focuse {
+  outline: none;
+}
+
+/* Header */
+/* bootstrap class로 처리했음
+#navbarNav {
+  justify-content: flex-end;
+}
+*/
+
+.navbar.bg-dark {
+  background-color: #000 !important;
+}
+
+.brand {
+  maring-bottom: 0;
+  font-size: 1.333333rem;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: -0.08rem; /* -1.54/20 */
+}
+
+.nav-link {
+  font-size: 0.73rem; /* 11/15 */
+  font-weight: bold;
+  line-height: 1.82;
+  letter-spacing: 0.14rem; /* 1.5/11 */
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.fa.fa-bars {
+  position: relative;
+  top: 1px;
+}
