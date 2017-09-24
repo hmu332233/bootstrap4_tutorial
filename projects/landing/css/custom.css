@@ -24,6 +24,14 @@ button:focuse {
   outline: none;
 }
 
+.bg-primary {
+  background: #ff9e1e !important;
+}
+
+a.bg-primary:hover {
+  background-color: #f38c04 !important;
+}
+
 /* Header */
 /* bootstrap class로 처리했음
 #navbarNav {
@@ -58,4 +66,60 @@ button:focuse {
 .fa.fa-bars {
   position: relative;
   top: 1px;
+}
+
+/* cover */
+.carousel-item-flex {
+  height: 100vh; /* vh란 보이는 화면의 height를 100으로 보는 단위를 말한다 */
+  padding-top: 45px; /* nav 높이만큼 줬음 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover; /* 화면 체우기 */
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,.2) 0%, rgba(0,0,0,.2) 100%), url(../assets/bg-cover-1.jpg);
+}
+
+.carousel-item:nth-child(2) {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,.2) 0%, rgba(0,0,0,.2) 100%), url(../assets/bg-cover-2.jpg);
+}
+
+.carousel-item:nth-child(3) {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,.2) 0%, rgba(0,0,0,.2) 100%), url(../assets/bg-cover-3.jpg);
+}
+
+.carousel__title {
+  font-size: 9.333333rem; /* 140/15 */
+  font-weight: bold;
+  line-height: 1.2; /* 168/140 */
+  letter-spacing: -0.08em; /* -10.77/140 */
+}
+
+@media screen and (max-width: 576px) {
+  .carousel__title {
+    font-size: 5.333333rem; /* 80/15 */
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .carousel__title {
+    font-size: 7.333333rem; /* 110/15 */
+  }
+}
+
+.carousel__text {
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn {
+  border-radius: 100px;
+  color: white;
 }
