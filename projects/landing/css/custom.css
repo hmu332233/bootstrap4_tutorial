@@ -171,3 +171,21 @@ a.bg-primary:hover {
   font-size: 2.33333rem;
   line-height: 1.37;
 }
+
+/* Clubs */
+.card {
+  text-align: left;
+}
+
+.card-title {
+  font-size: 1.333333rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.btn.btn-primary {
+  border: none;
+  font-size: 0.8rem;
+}
