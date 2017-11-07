@@ -150,6 +150,10 @@ a.bg-primary:hover {
   text-transform: uppercase;
 }
 
+.section__text {
+  margin-bottom: 0;
+}
+
 /* About */
 
 .about__data {
@@ -173,6 +177,11 @@ a.bg-primary:hover {
 }
 
 /* Clubs */
+
+#clubs {
+  background-color: #f7f7f7;
+}
+
 .card {
   text-align: left;
 }
@@ -188,4 +197,21 @@ a.bg-primary:hover {
 .btn.btn-primary {
   border: none;
   font-size: 0.8rem;
+}
+
+.card-img__container {
+  height: 180px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .card-img-top.height-fix {
+    width: auto;
+    height: 100%;
+  }
 }
