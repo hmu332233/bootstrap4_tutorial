@@ -220,3 +220,36 @@ a.bg-primary:hover {
     height: 100%;
   }
 }
+
+/* Contact */
+#contact .section__title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+#user_email {
+  flex-grow: 1;
+}
+
+.form-control {
+  border-radius: 0;
+  border: none;
+  background-color: rgba(0,0,0,0.05);
+  padding: 1rem;
+}
+
+.form-control:focus {
+  background-color: rgba(0,0,0,0.05);
+}
+
+#contact .btn {
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
