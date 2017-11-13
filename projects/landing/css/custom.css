@@ -204,9 +204,14 @@ a.bg-primary:hover {
   overflow: hidden;
 }
 
+.card-img__container:hover .card-img-top {
+  transform: scale(1.25);
+}
+
 .card-img-top {
   width: 100%;
   height: auto;
+  transition: all 0.2s ease-in-out
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
