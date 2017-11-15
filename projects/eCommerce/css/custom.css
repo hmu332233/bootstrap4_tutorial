@@ -124,3 +124,18 @@ button.bg-primary:focus {
 .btn-primary {
   border: none;
 }
+
+/* Section Commons */
+.section {
+  padding: 80px 0;
+}
+
+.section__title {
+  font-size: 2rem;
+  line-height: 1.6;
+  letter-spacing: -0.03em;
+}
+
+.section__header .nav-link:active {
+  color: #7e5bef;
+}
