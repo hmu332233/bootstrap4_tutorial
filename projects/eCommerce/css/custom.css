@@ -139,3 +139,60 @@ button.bg-primary:focus {
 .section__header .nav-link:active {
   color: #7e5bef;
 }
+
+/* Bets */
+#best {
+  background-color: #f7f7f7;
+}
+
+.best__img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.best__item a.d-block {
+  position: relative;
+}
+
+.best__item a:hover .best__contents {
+  opacity: 1;
+}
+
+.best__contents {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(126,91,239,.8);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.best__name {
+  font-size: 1.3333333rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
+
+.best__info {
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+
+.best__price {
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.best__price span {
+  font-size: 0.67rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+}
